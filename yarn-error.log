@@ -1,0 +1,68 @@
+Arguments: 
+  /Users/lars/.nvm/versions/node/v11.14.0/bin/node /usr/local/Cellar/yarn/1.16.0/libexec/bin/yarn.js add noble-mac
+
+PATH: 
+  /Users/lars/.rvm/gems/ruby-2.5.1/bin:/Users/lars/.rvm/gems/ruby-2.5.1@global/bin:/Users/lars/.rvm/rubies/ruby-2.5.1/bin:/usr/local/opt/ruby/bin:/Users/lars/.nvm/versions/node/v11.14.0/bin:/usr/local/Cellar/zplug/2.4.2/bin:/Library/TeX/texbin/:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/lars/.rvm/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  11.14.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/noble-mac: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.16.0/libexec/lib/cli.js:66091:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.16.0/libexec/lib/cli.js:129590:22)
+      at Request.emit (events.js:193:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.16.0/libexec/lib/cli.js:130562:10)
+      at Request.emit (events.js:193:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.16.0/libexec/lib/cli.js:130484:12)
+      at Object.onceWrapper (events.js:281:20)
+      at IncomingMessage.emit (events.js:198:15)
+      at endReadableNT (_stream_readable.js:1139:12)
+      at processTicksAndRejections (internal/process/task_queues.js:81:17)
+
+npm manifest: 
+  {
+    "name": "bleat",
+    "version": "0.1.7",
+    "description": "Abstraction library following Web Bluetooth specification for hiding differences in JavaScript BLE APIs",
+    "homepage": "https://github.com/thegecko/bleat",
+    "author": "Rob Moran <rob@thegecko.org>",
+    "license": "MIT",
+    "main": "./index.js",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/thegecko/bleat.git"
+    },
+    "keywords": [
+      "web-bluetooth",
+      "bleat",
+      "ble",
+      "bluetooth",
+      "abstraction"
+    ],
+    "scripts": {
+      "gulp": "gulp"
+    },
+    "engines": {
+      "node": ">=4.8.0"
+    },
+    "optionalDependencies": {
+    },
+    "devDependencies": {
+      "gulp": "^3.9.1",
+      "gulp-jshint": "^1.9.0",
+      "gulp-uglifyjs": "^0.5.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

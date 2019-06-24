@@ -32,8 +32,9 @@
         define(['noble', 'bleat', 'bluetooth.helpers'], factory);
     } else if (typeof exports === 'object') {
         // Node. Does not work with strict CommonJS
-        module.exports = function(bleat) {
-            return factory(require('noble'), bleat, require('./bluetooth.helpers'));
+        module.exports = function (bleat) {
+            console.log('Initing modified version of bleat. (swapping noble with noble-mac) 👍')
+            return factory(require('noble-mac'), bleat, require('./bluetooth.helpers'));
         };
     } else {
         // Browser globals with support for web workers (root is window)
